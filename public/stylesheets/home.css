@@ -1,0 +1,64 @@
+body {
+    background-color: #ADCCCE;
+    margin: 0;
+}
+
+.body-div {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100vh;
+}
+
+/* *********************************** */
+/* Left Half */
+
+.left-half {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    color: white;
+    margin: 0;
+}
+
+h1 { font-size: 55px; }
+
+h2 { 
+    font-size: 35px;
+}
+
+h1:first-of-type {
+    margin-bottom: 40px;
+}
+
+.left-half > img {
+    max-width: 40%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* *********************************** */
+/* Right Half */
+
+.right-half {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.right-half > img {
+    max-height: 80%;
+}
+
+.signup-div {
+    margin-top: 40px;
+}
